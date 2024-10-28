@@ -1,16 +1,9 @@
 import streamlit as st
-import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from matplotlib.gridspec import GridSpec
 import seaborn as sns
-import json
-import requests
 import folium
 from folium.plugins import FastMarkerCluster
-import zipfile
-import os, shutil
-from PIL import Image
 from pathlib import Path
 from streamlit_folium import st_folium
 
